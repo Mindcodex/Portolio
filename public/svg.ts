@@ -13,6 +13,9 @@ import prismaSvg from './prisma-3.svg'
 import cSvg from './c.svg'
 import cssSvg from './css.svg'
 import svelteSvg from './svelte-1.svg'
+import framerMotionSvg from './framer-motion.svg'
+import notionSvg from './Notion.svg'
+import figmaSvg from './figma.svg'
 export {
     reactSvg,
     rustSvg,
@@ -28,5 +31,9 @@ export {
     prismaSvg,
     cSvg,
     cssSvg,
-    svelteSvg
+    svelteSvg,
+    framerMotionSvg,
+    notionSvg,
+    figmaSvg,
+
 }

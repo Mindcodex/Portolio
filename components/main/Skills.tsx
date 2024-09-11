@@ -18,7 +18,7 @@ const Skills = () => {
     >
       <SkillText />
 
-      <div className=" flex flex-row justify-center 2xl:justify-between sm:pl-16 flex-wrap mt-4 gap-5 ">
+      <div className=" flex flex-row justify-center lg:justify-start sm:pl-16 flex-wrap mt-4 gap-5 ">
         <h3 className="w-full text-white font-medium text-2xl">Frontend</h3>
         {Frontend_skill.map((image, index) => (
           <SkillDataProvider
@@ -27,9 +27,6 @@ const Skills = () => {
             index={index}
           />
         ))}
-      </div>
-      <div className="flex justify-center lg:justify-start flex-row sm:pl-16 flex-wrap mt-4 gap-5 items-center">
-      <h3 className="w-full text-white font-medium text-2xl">Backend</h3>
         {Backend_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -38,6 +35,7 @@ const Skills = () => {
           />
         ))}
       </div>
+     
       <div className="flex justify-center lg:justify-start flex-row pl-16 flex-wrap mt-4 gap-5 items-center">
         {/* {Full_stack.map((image, index) => (
           <SkillDataProvider

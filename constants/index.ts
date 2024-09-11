@@ -1,4 +1,4 @@
-import { cppSvg, nextjsSvg, rustSvg, tsSvg, nodejsSvg, jsSvg, htmlSvg, prismaSvg, cSvg, cssSvg, svelteSvg } from "@/public/svg";
+import { cppSvg, nextjsSvg, rustSvg, tsSvg, nodejsSvg, jsSvg, htmlSvg, prismaSvg, cSvg, cssSvg, svelteSvg, framerMotionSvg, notionSvg, tauriSvg, figmaSvg } from "@/public/svg";
 import expressSvg from '@/public/express.svg'
 import reactSvg from '@/public/react.svg'
 import tailwindCssSvg from '@/public/tailwindcss.svg'
@@ -70,14 +70,19 @@ import tailwindCssSvg from '@/public/tailwindcss.svg'
   
   export const Backend_skill = [
     {
-      skill_name: "Node js",
-      Image: nodejsSvg,
+      skill_name: "Framer Motion",
+      Image: framerMotionSvg,
     },
     {
-      skill_name: "Express js",
-      Image: expressSvg,
+      skill_name: "Notion",
+      Image: notionSvg,
       width: 80,
       height: 80,
+    },
+    {
+      skill_name: "Figma",
+      Image: figmaSvg,
+     
     },
     {
       skill_name: "Mongo db",
@@ -88,12 +93,6 @@ import tailwindCssSvg from '@/public/tailwindcss.svg'
     {
       skill_name: "Postger SQL",
       Image: "/postger.png",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "My SQL",
-      Image: "/mysql.png",
       width: 70,
       height: 70,
     },
@@ -144,6 +143,11 @@ import tailwindCssSvg from '@/public/tailwindcss.svg'
     {
       skill_name: "Rust",
       Image: cSvg,
+    },
+    {
+      skill_name: "Tauri",
+      Image: tauriSvg,
+
     },
   ];
   
