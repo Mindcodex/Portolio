@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="flex flex-col gap-3 h-full relative overflow-hidden pb-80 py-20 w-full"
+      className="flex flex-col gap-3 h-full relative overflow-hidden py-20 w-full"
       style={{ transform: "scale(0.9)" }}
     >
       <SkillText />
@@ -28,7 +28,7 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="flex justify-center flex-row sm:pl-16 flex-wrap mt-4 gap-5 items-center">
+      <div className="flex justify-center lg:justify-start flex-row sm:pl-16 flex-wrap mt-4 gap-5 items-center">
       <h3 className="w-full text-white font-medium text-2xl">Backend</h3>
         {Backend_skill.map((image, index) => (
           <SkillDataProvider
@@ -38,7 +38,7 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="flex flex-row pl-16 flex-wrap mt-4 gap-5 items-center">
+      <div className="flex justify-center lg:justify-start flex-row pl-16 flex-wrap mt-4 gap-5 items-center">
         {/* {Full_stack.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -49,7 +49,7 @@ const Skills = () => {
           />
         ))} */}
       </div>
-      <div className="flex justify-center flex-row sm:pl-16 flex-wrap mt-4 gap-5 items-center">
+      <div className="flex justify-center lg:justify-start flex-row sm:pl-16 flex-wrap mt-4 gap-5 items-center">
       <h3 className="w-full text-white font-medium text-2xl">Sistemas</h3>
         {System_skill.map((image, index) => (
           <SkillDataProvider

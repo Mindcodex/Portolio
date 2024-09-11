@@ -11,22 +11,36 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent  text-white py-20">
         My Projects
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="h-full w-full flex flex-wrap flex-col md:flex-row gap-9 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Gestor De Lineas"
+          href="https://topmega-clon.vercel.app/"
+          src="/topmega.png"
+          title="Topmega Ecommerce Clone"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Manantial Gestor Ventas"
+          href="https://spotify-clone-mu-woad.vercel.app/"
+          src="/spotify.png"
+          title="Spotify Music Clone"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
-          src="/Doom3-Rust.png"
-          title="Doom 3 Id engine optimizado con Rust"
+          src="/duke.png"
+          title="Duke Nukem with Rust"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          inProgress = {true}
+          inProgress
+        />
+        <ProjectCard
+          src="/youtube.png"
+          title="Youtube Clone"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          inProgress
+        />
+        <ProjectCard
+          src="/youtubeMusic.png"
+          title="Youtube Music Clone"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          inProgress
         />
       </div>
     </div>

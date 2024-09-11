@@ -53,7 +53,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center hover:bg-neutral-100 hover:text-neutral-900 text-white cursor-pointer rounded-md max-w-[200px] outline outline-neutral-300 outline-[1px]"
         >
-          Learn More!
+          Download CV
         </motion.a>
       </div>
 
