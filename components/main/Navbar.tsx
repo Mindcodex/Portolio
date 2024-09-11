@@ -13,7 +13,7 @@ const Navbar = () => {
     })
   },[])
   return (
-    <div className="w-full h-[65px] fixed top-0 backdrop-blur-md  z-50 px-10">
+    <div className="w-full h-[65px] fixed top-0 backdrop-blur-md z-[99] px-10">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a
           href="#about-me"

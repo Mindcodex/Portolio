@@ -4,8 +4,8 @@ import HeroContent from "../sub/HeroContent";
 const Hero = () => {
   return (
     <div className="relative flex flex-col h-full w-full" id="about-me">
-      <img src={"/vecteezy_galaxy-overlay-space_26548589.png"} alt="" className="absolute scale-150 lg:scale-100 top-[198px] lg:-top-[298px] opacity-[55%]"/>
-      <img src={"/person.png"} alt="" className="absolute scale-[50%] top-[120px]  lg:-top-[558px] lg:scale-[30%] z-30"/>
+      <img src={"/vecteezy_galaxy-overlay-space_26548589.png"} alt="" className="absolute lg:left-[250px] scale-150 lg:scale-[50%] top-[198px] lg:-top-[298px] opacity-[55%]"/>
+      <img src={"/person.png"} alt="" className="absolute scale-[50%] top-[120px] lg:-top-[558px] lg:scale-[22%]  lg:left-[260px]"/>
       {/* <video
         autoPlay
         muted
